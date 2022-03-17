@@ -54,6 +54,6 @@ terraform apply -auto-approve
 | Name | Description | Default | Required |
 |------|-------------|---------|----------|
 | vpc_name | Existing Aviatrix TGW Firenet VPC name | `dev-int-fw` | yes |
-| egress_subnet | Existing egress subnet | `dev-int-fw-Public-FW-ingress-egress-ap-southeast-2a` | no |
-| lan_subnet | Existing lan subnet | `aviatrix-dev-int-fw-gw-dmz-firewall` | no |
+| egress_subnet | Existing egress subnet | `dev-int-fw-Public-FW-ingress-egress-ap-southeast-2a` | yes |
+| lan_subnet | Existing lan subnet | `aviatrix-dev-int-fw-gw-dmz-firewall` | yes |
 | fw_instance_type | Firewall instance size | `t2.small` | no |
